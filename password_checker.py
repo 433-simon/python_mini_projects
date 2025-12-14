@@ -48,3 +48,10 @@ else:
     print("Your password is weak🤨")   
 
         
+print("\nPassword Analysis:")
+print(f"Uppercase   : {has_upper}")
+print(f"Lowercase   : {has_lower}")
+print(f"Digit       : {has_digit}")
+print(f"Special char: {has_char}")
+print(f"Length      : {strength}")
+
